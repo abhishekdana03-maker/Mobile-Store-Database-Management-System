@@ -122,7 +122,7 @@ Assign a unique customer_id to each customer.
 - Maintain historical sales records.
 
 ```
-Add Mobiles → Add Stock → Register Customer
+'#ffff'Add Mobiles → Add Stock → Register Customer
         ↓
      Sale Entry
         ↓
