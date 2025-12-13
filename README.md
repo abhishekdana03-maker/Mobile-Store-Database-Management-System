@@ -57,32 +57,21 @@ The main objective of this project is to design and implement a structured MySQL
     - stocks
     - customers
     - sales
-
 Set Primary Keys and Foreign Key relationships to maintain data integrity.
 
-2. Mobile Data Entry
-
-Insert mobile phone details into the mobiles table:
-
-Brand
-
-Model
-
-RAM
-
-Storage
-
-Price
-
+## 2. Mobile Data Entry
+- Insert mobile phone details into the mobiles table:
+  - Brand
+  - Model
+  - RAM
+  - Storage
+  - Price
 Each mobile is uniquely identified by mobile_id.
 
-3. Stock Management
-
-Insert stock information into the stocks table.
-
-Link stock records to mobiles using mobile_id (Foreign Key).
-
-Maintain available quantity for each mobile model.
+## 3. Stock Management
+-Insert stock information into the 'stocks' table.
+-Link stock records to mobiles using 'mobile_id' (Foreign Key).
+-Maintain available 'quantity' for each mobile model.
 
 4. Customer Registration
 
