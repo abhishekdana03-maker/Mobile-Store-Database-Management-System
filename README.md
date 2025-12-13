@@ -123,6 +123,12 @@ Assign a unique customer_id to each customer.
 
 
 ## -> Queries with the output
+
+### 📌 Insert Data into mobiles Table
+```
+INSERT INTO mobiles (mobile_id, brand, model, ram, storage, price) VALUES(101,'Apple','iPhone 15','6GB','128GB',79999),(102,'Apple','iPhone 14','6GB','128GB',69999)(103,'Samsung','Galaxy S23','8GB','256GB',74999),(104,'Samsung','Galaxy A54','6GB','128GB',28999),(105,'OnePlus','11R','8GB','128GB',34999),(106,'OnePlus','Nord CE3','8GB','128GB',24999),(107,'Vivo','V29','8GB','256GB',32999),(108,'Vivo','Y21','4GB','64GB',12999),(109,'Oppo','Reno 10','8GB','256GB',38999),(110,'Oppo','F21 Pro','8GB','128GB',22999),(111,'Xiaomi','Mi 13 Pro','12GB','256GB',48999),(112,'Xiaomi','Redmi Note 12','6GB','128GB',16999),(113,'Realme','GT Neo 3','8GB','256GB',32999),
+(114,'Realme','C55','6GB','128GB',14999),(115,'Motorola','Edge 40','8GB','256GB',29999),(116,'Motorola','G54','8GB','128GB',15999),(117,'Google','Pixel 7','8GB','128GB',49999),(118,'Google','Pixel 8','8GB','128GB',64999),(119,'Nothing','Phone 2','8GB','128GB',39999),(120,'Nothing','Phone 1','8GB','128GB',29999);
+```
 ### 1️⃣ Display all mobile brands and their models 
 ``` SELECT brand, model FROM mobiles;```
 
