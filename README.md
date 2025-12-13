@@ -122,9 +122,9 @@ Assign a unique customer_id to each customer.
 - Maintain historical sales records.
 
 
-## -> some queries on this project
-### 1️⃣ Display all mobile brands and their models
-```SELECT brand, model FROM mobiles;```
+## -> Queries with the output
+### 1️⃣ Display all mobile brands and their models 
+       - SELECT brand, model FROM mobiles;
 
 
 Result: Displays all available mobile brands with their respective models.
