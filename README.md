@@ -124,13 +124,13 @@ Assign a unique customer_id to each customer.
 
 ## -> Queries with the output
 ### 1️⃣ Display all mobile brands and their models 
-       -``` SELECT brand, model FROM mobiles;```
+``` SELECT brand, model FROM mobiles;```
 
 
 Result: Displays all available mobile brands with their respective models.
 
 ### 2️⃣ Customers who purchased a mobile on 2025-01-10 
-- ```
+```
   SELECT c.name
   FROM customers c
   JOIN sales s ON s.customer_id = c.customer_id
