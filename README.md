@@ -121,6 +121,7 @@ Assign a unique customer_id to each customer.
 - Remove discontinued products.
 - Maintain historical sales records.
 
+```
 Add Mobiles → Add Stock → Register Customer
         ↓
      Sale Entry
@@ -128,4 +129,5 @@ Add Mobiles → Add Stock → Register Customer
  Update Stock
         ↓
  Reports & Analysis
+```
 
