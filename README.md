@@ -121,11 +121,8 @@ Assign a unique customer_id to each customer.
 - Remove discontinued products.
 - Maintain historical sales records.
 
-## the workflow diagram image
-  
-<img width="200" height="1536" alt="7e39c3a1-a2a9-4659-87de-0b89b331f880" src="https://github.com/user-attachments/assets/54593e43-ee6e-4e4b-b081-00bbae6eb194" />
 
-## some queries on this project
+## -> some queries on this project
 ### 1️⃣ Display all mobile brands and their models
 ```SELECT brand, model FROM mobiles;```
 
@@ -230,6 +227,11 @@ WHERE m.price = (
 
 
 Result: Rahul Sharma – ₹79,999
+
+
+## the workflow diagram image
+  
+<img width="200" height="1536" alt="7e39c3a1-a2a9-4659-87de-0b89b331f880" src="https://github.com/user-attachments/assets/54593e43-ee6e-4e4b-b081-00bbae6eb194" />
 
 # 📌Conclusion
 
