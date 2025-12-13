@@ -4,7 +4,7 @@
 
 The main objective of this project is to design and implement a structured MySQL database that efficiently manages all operations of a mobile store. This system aims to store, organize, and retrieve information related to mobiles, stock, customers, and sales in a reliable and user-friendly manner.
 
-#Key Objectives:
+# Key Objectives:
 
  1)Efficient Data Storage
  
