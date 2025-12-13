@@ -44,4 +44,127 @@ The main objective of this project is to design and implement a structured MySQL
  
    - To simulate a real mobile shop’s operations through a database that can be used for practical learning and project demonstration.
 
+# 🔁 Project Workflow: Mobile Store Database Management System
+
+## 1. System Initialization
+- Create the database in MySQL.
+
+Define tables:
+
+mobiles
+
+stocks
+
+customers
+
+sales
+
+Set Primary Keys and Foreign Key relationships to maintain data integrity.
+
+2. Mobile Data Entry
+
+Insert mobile phone details into the mobiles table:
+
+Brand
+
+Model
+
+RAM
+
+Storage
+
+Price
+
+Each mobile is uniquely identified by mobile_id.
+
+3. Stock Management
+
+Insert stock information into the stocks table.
+
+Link stock records to mobiles using mobile_id (Foreign Key).
+
+Maintain available quantity for each mobile model.
+
+4. Customer Registration
+
+Store customer details in the customers table:
+
+Name
+
+Phone number
+
+Email
+
+Assign a unique customer_id to each customer.
+
+5. Sales Transaction Process
+
+When a customer purchases a mobile:
+
+Customer is selected from the customers table.
+
+Mobile is selected from the mobiles table.
+
+Quantity and sale date are recorded in the sales table.
+
+Each sale links:
+
+Customer → customer_id
+
+Mobile → mobile_id
+
+6. Stock Update After Sale
+
+After a sale:
+
+Stock quantity is reduced based on the number of units sold.
+
+Ensures real-time inventory tracking.
+
+7. Data Validation & Integrity
+
+Foreign keys ensure:
+
+Only existing mobiles can be sold.
+
+Only registered customers can make purchases.
+
+Prevents invalid or duplicate records.
+
+8. Data Retrieval & Reporting
+
+Generate reports using SQL queries:
+
+Available stock report
+
+Sales summary
+
+Customer purchase history
+
+Top-selling mobiles
+
+Low-stock alerts
+
+9. Business Analysis
+
+Analyze sales trends based on:
+
+Brand
+
+Model
+
+Date range
+
+Support decision-making for restocking and pricing.
+
+10. System Maintenance
+
+Update mobile prices if required.
+
+Add new mobile models.
+
+Remove discontinued products.
+
+Maintain historical sales records.
+
 
