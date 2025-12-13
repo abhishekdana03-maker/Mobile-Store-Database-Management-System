@@ -73,43 +73,30 @@ Each mobile is uniquely identified by mobile_id.
 - Link stock records to mobiles using 'mobile_id' (Foreign Key).
 - Maintain available 'quantity' for each mobile model.
 
-4. Customer Registration
-
-Store customer details in the customers table:
-
-Name
-
-Phone number
-
-Email
-
+## 4. Customer Registration 
+- Store customer details in the customers table:
+  - Name
+  - Phone number
+  - Email
 Assign a unique customer_id to each customer.
 
-5. Sales Transaction Process
+## 5. Sales Transaction Process
+- When a customer purchases a mobile:
+  1. Customer is selected from the customers table.
+  2.  Mobile is selected from the mobiles table.
+  3.   Quantity and sale date are recorded in the sales table.
+- Each sale links:
+  - Customer → customer_id
+  - Mobile → mobile_id
 
-When a customer purchases a mobile:
-
-Customer is selected from the customers table.
-
-Mobile is selected from the mobiles table.
-
-Quantity and sale date are recorded in the sales table.
-
-Each sale links:
-
-Customer → customer_id
-
-Mobile → mobile_id
-
-6. Stock Update After Sale
-
-After a sale:
+## 6. Stock Update After Sale 
+- After a sale:
 
 Stock quantity is reduced based on the number of units sold.
 
 Ensures real-time inventory tracking.
 
-7. Data Validation & Integrity
+## 7. Data Validation & Integrity
 
 Foreign keys ensure:
 
@@ -119,7 +106,7 @@ Only registered customers can make purchases.
 
 Prevents invalid or duplicate records.
 
-8. Data Retrieval & Reporting
+## 8. Data Retrieval & Reporting
 
 Generate reports using SQL queries:
 
@@ -133,7 +120,7 @@ Top-selling mobiles
 
 Low-stock alerts
 
-9. Business Analysis
+## 9. Business Analysis
 
 Analyze sales trends based on:
 
@@ -145,7 +132,7 @@ Date range
 
 Support decision-making for restocking and pricing.
 
-10. System Maintenance
+## 10. System Maintenance
 
 Update mobile prices if required.
 
