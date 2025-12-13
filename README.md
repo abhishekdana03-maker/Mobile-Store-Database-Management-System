@@ -52,10 +52,8 @@ The main objective of this project is to design and implement a structured MySQL
 
 ## 1. System Initialization
 - Create the database in MySQL.
-
-Define tables:
-
-mobiles
+  - Define tables:
+    - mobiles
 
 stocks
 
