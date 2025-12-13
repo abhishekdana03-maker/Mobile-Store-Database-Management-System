@@ -132,14 +132,18 @@ INSERT INTO mobiles (mobile_id, brand, model, ram, storage, price) VALUES(101,'A
 
 ### 📌 Insert Data into stocks Table
 ```
-INSERT INTO stocks (stock_id, mobile_id, stock) VALUES
-(201,101,12),(202,102,8),(203,103,5),(204,104,15),
-(205,105,9),(206,106,20),(207,107,7),(208,108,18),
-(209,109,6),(210,110,10),(211,111,4),(212,112,25),
-(213,113,8),(214,114,22),(215,115,6),(216,116,14),
-(217,117,5),(218,118,3),(219,119,11),(220,120,13);
+INSERT INTO stocks (stock_id, mobile_id, stock) VALUES(201,101,12),(202,102,8),(203,103,5),(204,104,15),(205,105,9),(206,106,20),(207,107,7),(208,108,18),(209,109,6),(210,110,10),(211,111,4),(212,112,25),(213,113,8),(214,114,22),(215,115,6),(216,116,14),(217,117,5),(218,118,3),(219,119,11),(220,120,13);
 ```
 
+📌 Insert Data into customers Table
+```
+INSERT INTO customers (customer_id, name, phone, email) VALUES(301,'Rahul Sharma','9876543210','rahul@mail.com'),(302,'Aditi Singh','9991122334','aditi@mail.com'),(303,'Karan Mehta','9123456780','karan@mail.com'),(304,'Sneha Patil','9090909090','sneha@mail.com'),(305,'Arjun Verma','8855443322','arjun@mail.com'),(306,'Priya Das','9081726354','priya@mail.com'),(307,'Rohit Kumar','9911552244','rohit@mail.com'),(308,'Simran Kaur','9811223344','simran@mail.com'),(309,'Manoj Gupta','9788897766','manoj@mail.com'),(310,'Riya Kapoor','9776655443','riya@mail.com'),(311,'Rajesh Rao','9123098765','rajesh@mail.com'),(312,'Anjali Jain','9876001234','anjali@mail.com'),(313,'Sathish R','9001123456','sathish@mail.com'),(314,'Shivani S','9012345677','shivani@mail.com'),(315,'Vikram Singh','9099887766','vikram@mail.com'),(316,'Tanya Arora','9822334455','tanya@mail.com'),(317,'Harsh Patel','9955443322','harsh@mail.com'),(318,'Neha Gupta','9665544332','neha@mail.com'),(319,'Deepak Yadav','9112233445','deepak@mail.com'),(320,'Ankita N','9022113344','ankita@mail.com');
+```
+
+📌 Insert Data into sales Table
+```
+INSERT INTO sales (sales_id, customer_id, mobile_id, quantity, sale_date) VALUES(401,301,101,1,'2025-01-10'),(402,302,105,1,'2025-01-11'),(403,303,103,1,'2025-01-12'),(404,304,107,2,'2025-01-12'),(405,305,112,1,'2025-01-13'),(406,306,109,1,'2025-01-14'),(407,307,115,1,'2025-01-14'),(408,308,118,1,'2025-01-15'),(409,309,111,1,'2025-01-15'),(410,310,102,2,'2025-01-16'),(411,311,114,1,'2025-01-17'),(412,312,104,1,'2025-01-17'),(413,313,120,1,'2025-01-18'),(414,314,108,2,'2025-01-18'),(415,315,106,1,'2025-01-19'),(416,316,113,1,'2025-01-19'),(417,317,110,1,'2025-01-20'),(418,318,116,1,'2025-01-20'),(419,319,119,1,'2025-01-21'),(420,320,117,1,'2025-01-21'),(421,301,103,1,'2025-01-10'),(422,301,101,2,'2025-01-10');
+```
 
 ### 1️⃣ Display all mobile brands and their models 
 ``` SELECT brand, model FROM mobiles;```
