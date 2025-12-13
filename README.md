@@ -44,6 +44,8 @@ The main objective of this project is to design and implement a structured MySQL
  
    - To simulate a real mobile shop’s operations through a database that can be used for practical learning and project demonstration.
 
+
+
 # 🔁 Project Workflow: Mobile Store Database Management System
 
 ## 1. System Initialization
