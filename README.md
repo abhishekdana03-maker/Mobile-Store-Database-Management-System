@@ -123,7 +123,7 @@ Assign a unique customer_id to each customer.
 
 ## the workflow diagram image
   
-<img width="400" height="1536" alt="7e39c3a1-a2a9-4659-87de-0b89b331f880" src="https://github.com/user-attachments/assets/54593e43-ee6e-4e4b-b081-00bbae6eb194" />
+<img width="200" height="1536" alt="7e39c3a1-a2a9-4659-87de-0b89b331f880" src="https://github.com/user-attachments/assets/54593e43-ee6e-4e4b-b081-00bbae6eb194" />
 
 
 
