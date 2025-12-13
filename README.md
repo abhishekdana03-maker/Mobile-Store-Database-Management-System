@@ -7,7 +7,6 @@ The main objective of this project is to design and implement a structured MySQL
 # Key Objectives:
 
  ## 1)Efficient Data Storage
- 
   - To store details of mobile phones, customers, stock levels, and sales transactions in well-designed relational tables.
 
  ## 2)Easy Data Retrieval
