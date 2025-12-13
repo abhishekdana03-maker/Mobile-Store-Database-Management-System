@@ -42,7 +42,10 @@ The main objective of this project is to design and implement a structured MySQL
 
  ## 8)Real-World Business Simulation
  
-   - To simulate a real mobile shop’s operations through a database that can be used for practical learning and project demonstration.                     
+   - To simulate a real mobile shop’s operations through a database that can be used for practical learning and project demonstration.     <br>
+
+
+   </br>
 
 
 # 🔁 Project Workflow: Mobile Store Database Management System
