@@ -54,12 +54,9 @@ The main objective of this project is to design and implement a structured MySQL
 - Create the database in MySQL.
   - Define tables:
     - mobiles
-
-stocks
-
-customers
-
-sales
+    - stocks
+    - customers
+    - sales
 
 Set Primary Keys and Foreign Key relationships to maintain data integrity.
 
