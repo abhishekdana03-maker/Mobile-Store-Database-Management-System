@@ -91,55 +91,34 @@ Assign a unique customer_id to each customer.
 
 ## 6. Stock Update After Sale 
 - After a sale:
-
-Stock quantity is reduced based on the number of units sold.
-
-Ensures real-time inventory tracking.
+  - Stock quantity is reduced based on the number of units sold.
+  - Ensures real-time inventory tracking.
 
 ## 7. Data Validation & Integrity
-
-Foreign keys ensure:
-
-Only existing mobiles can be sold.
-
-Only registered customers can make purchases.
-
-Prevents invalid or duplicate records.
+- Foreign keys ensure:
+  - Only existing mobiles can be sold.
+  - Only registered customers can make purchases.
+- Prevents invalid or duplicate records.
 
 ## 8. Data Retrieval & Reporting
-
-Generate reports using SQL queries:
-
-Available stock report
-
-Sales summary
-
-Customer purchase history
-
-Top-selling mobiles
-
-Low-stock alerts
+- Generate reports using SQL queries:
+  - Available stock report
+  - Sales summary
+  - Customer purchase history
+  - Top-selling mobiles
+  - Low-stock alerts
 
 ## 9. Business Analysis
-
-Analyze sales trends based on:
-
-Brand
-
-Model
-
-Date range
-
-Support decision-making for restocking and pricing.
+- Analyze sales trends based on:
+  - Brand
+  - Model
+  - Date range
+- Support decision-making for restocking and pricing.
 
 ## 10. System Maintenance
-
-Update mobile prices if required.
-
-Add new mobile models.
-
-Remove discontinued products.
-
-Maintain historical sales records.
+- Update mobile prices if required.
+- Add new mobile models.
+- Remove discontinued products.
+- Maintain historical sales records.
 
 
