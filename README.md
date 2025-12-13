@@ -69,9 +69,9 @@ Set Primary Keys and Foreign Key relationships to maintain data integrity.
 Each mobile is uniquely identified by mobile_id.
 
 ## 3. Stock Management
--Insert stock information into the 'stocks' table.
--Link stock records to mobiles using 'mobile_id' (Foreign Key).
--Maintain available 'quantity' for each mobile model.
+- Insert stock information into the 'stocks' table.
+- Link stock records to mobiles using 'mobile_id' (Foreign Key).
+- Maintain available 'quantity' for each mobile model.
 
 4. Customer Registration
 
